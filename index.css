@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #eb4c1c;
+  height: 8vh;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  padding: 5px;
+}
+
+li {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 22px;
+  color: #080200;
+}
+
+.menu-bar {
+  height: 50px;
+  width: 50px;
+}
+
+.mobile-bar {
+  height: 50px;
+  width: 50px;
+}
+
+@media (max-width: 576px) {
+  ul {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .mobile-bar {
+    display: none;
+  }
+}
+
+section {
+  display: flex;
+  background: linear-gradient(to right, #f2e33a, #f241d8);
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+}
+
+h1 {
+  color: #000000;
+  font-family: "Roboto";
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+p {
+  color: #260321;
+  font-family: "Roboto";
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+button {
+  color: #ffffff;
+  background-color: #eb4c1c;
+  padding: 10px;
+  border-width: 0px;
+  font-family: "Roboto";
+  font-size: 16px;
+  width: 30%;
+}
+
+.section-image {
+  height: 100%;
+  width: 50%;
+}
+
+.gridContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 30px;
+  margin: 70px;
+}
+
+.imageContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  height: 180px;
+  width: 180px;
+  padding: 5px;
+}
+
+.image {
+  height: 360px;
+  width: 50%;
+  padding-left: 10px;
+}
+
+.rightContainer {
+  font-family: "Roboto";
+  background-color: #eb4c1c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.para {
+  color: #000000;
+  font-size: 18px;
+}
+
+.heading {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.arrow {
+  height: 40px;
+  width: 40px;
+}
